@@ -6,7 +6,7 @@ const getMethod=(req=request, res=response)=>{
     const {nombre,universidad}=req.query;
     res.json({
         OK:"200",
-        msj:"Mesaje GET devuelto desde el controlador ",
+        msj:"Mesaje GET devuelto desde el controlador ta de pinga ",
         nombre,
         universidad:"UTN",
         modo:"Desarrollo",
